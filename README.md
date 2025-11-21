@@ -39,46 +39,6 @@ foodmart/
 └── README.md           # Project documentation (this file)
 ```
 
-## 🚀 How to Run
-
-### Option 1: Direct Browser Open
-Simply open the `index.html` file in your web browser:
-
-**macOS:**
-```bash
-open index.html
-```
-
-**Linux:**
-```bash
-xdg-open index.html
-```
-
-**Windows:**
-```bash
-start index.html
-```
-
-### Option 2: Using a Local Server (Recommended)
-
-Using a local development server helps with testing and avoids CORS issues:
-
-**Using Python 3:**
-```bash
-python3 -m http.server 8000
-```
-
-**Using Python 2:**
-```bash
-python -m SimpleHTTPServer 8000
-```
-
-**Using Node.js:**
-```bash
-npx http-server -p 8000
-```
-
-Then visit `http://localhost:8000` in your browser.
 
 ## 📱 Responsive Breakpoints
 
@@ -109,76 +69,6 @@ The design uses a warm, inviting color palette:
 6. **Contact**: Contact information and form layout
 7. **Footer**: Multi-column footer with links and social media
 
-## 🎓 Educational Purpose
 
-This project was created as a college capstone project to demonstrate:
 
-- Understanding of HTML5 semantic elements
-- Proficiency in CSS3 layout techniques (Grid, Flexbox)
-- Responsive web design principles
-- CSS organization and best practices
-- Design system implementation with CSS variables
-- Clean, maintainable code structure
 
-## 🔧 Customization
-
-### Changing Colors
-All colors are defined as CSS variables in `style.css`:
-```css
-:root {
-    --primary-orange: #ff5200;
-    --success-green: #60b246;
-    /* ... other colors */
-}
-```
-
-### Adding Products
-To add new products, copy an existing `.product-card` div in `index.html` and update:
-- Product image URL
-- Product name
-- Weight/quantity
-- Price
-- Discount badge (if applicable)
-
-### Modifying Categories
-Edit the `.category-card` divs in the Categories section with new:
-- Emoji icons
-- Category names
-- Descriptions
-
-## 📝 Notes
-
-- All prices are in Indian Rupees (₹)
-- Product images are loaded from Unsplash (requires internet connection)
-- Forms are UI-only and don't submit data (no backend)
-- "Add to Cart" buttons are non-functional (no JavaScript)
-- Navigation uses anchor links for smooth scrolling
-
-## 🌐 Browser Compatibility
-
-This website works on all modern browsers:
-- Google Chrome (latest)
-- Mozilla Firefox (latest)
-- Safari (latest)
-- Microsoft Edge (latest)
-
-*Note: Internet Explorer is not supported due to modern CSS features.*
-
-## 📧 Contact
-
-For questions or feedback about this project, please use the contact form on the website or reach out via:
-
-- **Email**: support@quickmart.com
-- **Phone**: +91 98765 43210
-- **Address**: 123 MG Road, Bengaluru, Karnataka 560001
-
-## 📄 License
-
-This project is created for educational purposes as part of a college capstone project.
-
----
-
-**Developed by**: [Your Name]  
-**Project Type**: College Capstone Project  
-**Date**: November 2024  
-**Status**: ✅ Complete
