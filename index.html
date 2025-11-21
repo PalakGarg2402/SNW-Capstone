@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QuickMart - Your instant food and grocery delivery partner">
+    <title>QuickMart - Fast Food & Grocery Delivery</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo/Brand Name -->
+                <div class="logo">
+                    <h1>QuickMart</h1>
+                    <p class="tagline">Delivered in minutes</p>
+                </div>
+                
+                <!-- Navigation Menu -->
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#offers">Offers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Groceries Delivered in <span class="highlight">10 Minutes</span></h2>
+                <p class="hero-description">Fresh fruits, vegetables, snacks, and daily essentials at your doorstep instantly</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Search for products..." class="search-input">
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <p class="section-subtitle">Browse through our wide range of products</p>
+            
+            <div class="category-grid">
+                <!-- Category Card 1 -->
+                <div class="category-card">
+                    <div class="category-icon">🍎</div>
+                    <h3 class="category-name">Fresh Fruits</h3>
+                    <p class="category-description">Handpicked fresh fruits delivered daily</p>
+                </div>
+                
+                <!-- Category Card 2 -->
+                <div class="category-card">
+                    <div class="category-icon">🥗</div>
+                    <h3 class="category-name">Vegetables</h3>
+                    <p class="category-description">Farm-fresh vegetables at best prices</p>
+                </div>
+                
+                <!-- Category Card 3 -->
+                <div class="category-card">
+                    <div class="category-icon">🍿</div>
+                    <h3 class="category-name">Snacks</h3>
+                    <p class="category-description">Chips, biscuits, and instant snacks</p>
+                </div>
+                
+                <!-- Category Card 4 -->
+                <div class="category-card">
+                    <div class="category-icon">🥤</div>
+                    <h3 class="category-name">Beverages</h3>
+                    <p class="category-description">Cold drinks, juices, and more</p>
+                </div>
+                
+                <!-- Category Card 5 -->
+                <div class="category-card">
+                    <div class="category-icon">🛢️</div>
+                    <h3 class="category-name">Cooking Essentials</h3>
+                    <p class="category-description">Oils, spices, and kitchen staples</p>
+                </div>
+                
+                <!-- Category Card 6 -->
+                <div class="category-card">
+                    <div class="category-icon">🥛</div>
+                    <h3 class="category-name">Dairy Products</h3>
+                    <p class="category-description">Milk, butter, cheese, and yogurt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <p class="section-subtitle">Popular items loved by our customers</p>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400" alt="Fresh Apples">
+                        <span class="discount-badge">20% OFF</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Fresh Red Apples</h3>
+                        <p class="product-weight">1 kg</p>
+                        <div class="product-pricing">
+                            <span class="current-price">₹120</span>
+                            <span class="original-price">₹150</span>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1610348725531-843dff563e2c?w=400" alt="Fresh Milk">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Full Cream Milk</h3>
+                        <p class="product-weight">1 Litre</p>
+                        <div class="product-pricing">
+                            <span class="current-price">₹62</span>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=400" alt="Potato Chips">
+                        <span class="discount-badge">15% OFF</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Classic Salted Chips</h3>
+                        <p class="product-weight">200 g</p>
+                        <div class="product-pricing">
+                            <span class="current-price">₹34</span>
+                            <span class="original-price">₹40</span>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400" alt="Fresh Tomatoes">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Farm Fresh Tomatoes</h3>
+                        <p class="product-weight">500 g</p>
+                        <div class="product-pricing">
+                            <span class="current-price">₹25</span>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?w=400" alt="Orange Juice">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Fresh Orange Juice</h3>
+                        <p class="product-weight">1 Litre</p>
+                        <div class="product-pricing">
+                            <span class="current-price">₹110</span>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400" alt="Cooking Oil">
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Sunflower Cooking Oil</h3>
+                        <p class="product-weight">1 Litre</p>
+                        <div class="product-pricing">
+                            <span class="current-price">₹135</span>
+                            <span class="original-price">₹150</span>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section class="offers" id="offers">
+        <div class="container">
+            <h2 class="section-title">Special Offers</h2>
+            <p class="section-subtitle">Don't miss out on these amazing deals</p>
+            
+            <div class="offers-grid">
+                <!-- Offer Banner 1 -->
+                <div class="offer-card offer-card-1">
+                    <div class="offer-content">
+                        <h3 class="offer-title">First Order Special</h3>
+                        <p class="offer-description">Get flat ₹100 OFF on your first order above ₹500</p>
+                        <p class="offer-code">Use code: <strong>FIRST100</strong></p>
+                    </div>
+                </div>
+                
+                <!-- Offer Banner 2 -->
+                <div class="offer-card offer-card-2">
+                    <div class="offer-content">
+                        <h3 class="offer-title">Weekend Bonanza</h3>
+                        <p class="offer-description">Flat 25% OFF on all fruits and vegetables this weekend</p>
+                        <p class="offer-code">Use code: <strong>WEEKEND25</strong></p>
+                    </div>
+                </div>
+                
+                <!-- Offer Banner 3 -->
+                <div class="offer-card offer-card-3">
+                    <div class="offer-content">
+                        <h3 class="offer-title">Free Delivery</h3>
+                        <p class="offer-description">Zero delivery charges on orders above ₹300</p>
+                        <p class="offer-code">No code needed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">We'd love to hear from you</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>📍 Address</h4>
+                        <p>123 MG Road, Bengaluru<br>Karnataka 560001</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📞 Phone</h4>
+                        <p>+91 98765 43210</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>✉️ Email</h4>
+                        <p>support@quickmart.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" class="form-input" required>
+                        <input type="email" placeholder="Your Email" class="form-input" required>
+                        <textarea placeholder="Your Message" class="form-textarea" rows="5" required></textarea>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Footer Column 1 -->
+                <div class="footer-column">
+                    <h3 class="footer-title">QuickMart</h3>
+                    <p class="footer-description">Your trusted partner for instant grocery delivery. Fresh products, fast delivery, best prices.</p>
+                </div>
+                
+                <!-- Footer Column 2 -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#offers">Offers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Footer Column 3 -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Customer Service</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Footer Column 4 -->
+                <div class="footer-column">
+                    <h4 class="footer-heading">Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">Facebook</a>
+                        <a href="#" class="social-icon">Instagram</a>
+                        <a href="#" class="social-icon">Twitter</a>
+                        <a href="#" class="social-icon">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 QuickMart. All rights reserved. | Designed for Educational Purpose</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
